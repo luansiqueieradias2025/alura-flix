@@ -1,21 +1,56 @@
-MIT License
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULAREFLEX</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, black, green);
+            color: white;
+            text-align: center;
+        }
 
-Copyright (c) 2025 luansiqueieradias2025
+        header {
+            background-color: rgba(0,0,0,0.7);
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px black;
+        }
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+        section {
+            margin: 30px;
+        }
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+        iframe {
+            margin-top: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.8);
+        }
+    </style>
+</head>
+<body>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+    <header>AULAREFLEX</header>
+
+    <section>
+        <h1>NOVO MAPA</h1>
+        <p>150 PLYARS</p>
+    </section>
+
+    <div>
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/ib0WoAFYJSg?start=29"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+</body>
+</html>
